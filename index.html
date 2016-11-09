@@ -2,35 +2,40 @@
 <html>
 <head>
 	<title>Class work</title>
+	<script>
+		alert('hello');
+	</script>
 	<style type="text/css">
-		#container {
-			width: auto;
-			margin: auto;
+		.left-column{
+			float: left;
+			width: 50%;
+			background: lightblue;
 		}
-		#gallery { 
+		.right-column{
 			float: right;
+			width: 50%;
+			background: green;
 		}
 	</style>
 </head>
 <body background="pikachu123.jpg">
-<div id="container">
-<h1> Name </h1>
+
+<div class="left-column">
+	<h1> Name </h1>
 <p> Hristo Emilov Stoianov </p>
 
-<div class="top">
 <img src="daa.png">
 <h2>Description</h2>
 <ul>
 	<li>stuff</li>
 	<li>stuff2</li>
 </ul>
-</div>
-<div class="bottom">
 <img src="smiley.png" width="420" height="360">
 </div>
-</div>
 
-<div id="gallery">
+
+<div class="right-column">
+	
 	<img style="-webkit-user-select: none" src="http://placezombie.com/200x200">
 	<img style="-webkit-user-select: none" src="http://placezombie.com/200x200">
 	<img style="-webkit-user-select: none" src="http://placezombie.com/200x200">
@@ -41,7 +46,13 @@
 	<img style="-webkit-user-select: none" src="http://placezombie.com/200x200">
 	<img style="-webkit-user-select: none" src="http://placezombie.com/200x200">
 	<img style="-webkit-user-select: none" src="http://placezombie.com/g/200x200">
+
+
 </div>
+
+
+
+
 
 </body>
 </html>
